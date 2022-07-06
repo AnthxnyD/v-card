@@ -2,6 +2,11 @@
 * {
     font-family: 'Lato';
 }
+body{
+background-color: #3AB0FF ;
+
+}
+
 .card {
     width: 700px;
     height: auto;
@@ -32,6 +37,7 @@
     padding-top: 10px;
     display: inline-block;
     padding-bottom: 10px;
+    
 }
 .avatar {
     border-radius: 50%;
@@ -51,7 +57,7 @@
     margin: 10px;
 }
 .lefty {
-    float: left:
+    float: left;
 }
 ul.tabs {
     margin: 0px;
@@ -72,10 +78,19 @@ ul.tabs li {
     display: none;
     background: #fff;
     padding: 15px;
+    
 }
 .tab-content.current {
-    display: inherit;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    
+    
 }
+
 @media screen and (max-width: 1000px) {
     .card {
         width: 100%;
@@ -87,4 +102,31 @@ ul.tabs li {
     ul.tabs li {
         font-size: 10pt;
     }
+}
+#tab-1  {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+#Portfolio{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom:  25px;
+}
+#Portfolio a{
+    
+   color: white;
+    border: 3px #3AB0FF solid ;
+    padding: 10px;
+    background-color: #3AB0FF;
+    border-radius: 11px;
+    text-decoration: none;
+    }
+#Portfolio .margin{
+
+    margin-right: 50px;
 }
